@@ -1,0 +1,14 @@
+.notelist{
+    height: 100%;
+}
+.notelist h2{
+    margin-bottom: 20px;
+}
+.note-list_notes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+

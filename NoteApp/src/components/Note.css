@@ -1,0 +1,58 @@
+/* .note{
+    padding: 25px ;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 30px;
+    width: 260px;
+}
+.note_text{
+    flex: 1;
+    background-color: transparent;
+    line-height: 1.875rem;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 1rem;
+}
+.note_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.note:hover .note_footer .text-2xl{
+    opacity: 1;
+    transition: 200ms;
+} *//* Note.css */
+.note {
+    padding: 25px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 30px;
+    width: 260px;
+  }
+  
+  .note_text {
+    flex: 1;
+    background-color: transparent;
+    line-height: 1.875rem;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 1rem;
+  }
+  
+  .note_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .note:hover .note_footer .text-2xl {
+    opacity: 1;
+    transition: 200ms;
+  }
+  
